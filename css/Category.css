@@ -1,0 +1,91 @@
+/*开始    */
+.lf {
+	float: left;
+}
+.search_box {
+	padding: 7px 5%;
+	background: #2F2F2F;
+	overflow: hidden;
+}
+.back {
+	display: block;
+	width: 10%;
+	height: 30px;
+	background: url(../img/back.png) no-repeat 0 center;
+	background-size: 15px 20px;
+}
+.search {
+	display: block;
+	width: 90%;
+	padding: 0 36px;
+	line-height: 30px;
+	height: 30px;
+	font-size: 14px;
+	color: #B5B5B5;
+	border-radius: 4px;
+	background: url(../img/search.png) no-repeat 9px center #EBEBEB;
+	background-size: 18px;
+}
+.main {
+	overflow: hidden;
+}
+.main .left,.main .right {
+	overflow: hidden;
+	background: #EFEFF4;
+	float: left;
+}
+/*  左边 */
+.main .left {
+	width: 26%;
+}
+.main ul {
+	background: #FFFFFF;
+}
+.main ul li {
+	width: 100%;
+	padding: 10px  0 10px 10px;
+	border-bottom: 1px solid #EEEEEE; 
+}
+.main ul li.current {
+	color: #ED2F38;
+	background: #EFEFF4;
+}
+/*  右边  */
+.main .right {
+	width: 74%;
+	padding: 0 5px;
+	transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0, 0, 0);
+}
+.main .right .category .title {
+	height: 37px;
+	line-height: 37px;
+}
+.show {
+	overflow: hidden;
+}
+.show .product {
+	display: inline-block;
+	width: 32%;
+	background: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 4px;
+}
+.show .product .introduce {
+	height: 20px;
+	line-height: 24px;
+	overflow: hidden;
+}
+.show .product img {
+	display: block;
+	width: 90%;
+	margin: 5px auto 7px;
+}
+.right_content {
+	display: none; 
+}
+.link {
+	color: #000000;
+}
+
