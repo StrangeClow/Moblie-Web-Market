@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+	    <meta content="telephone=no,email=no" name="format-detection">
+		<title>我的账户</title>
+	<link rel="stylesheet" type="text/css" href="css/Account.css"/>  
+		 <link rel="stylesheet" type="text/css" href="css/Root.css"/> 
+	</head> 
+	<body>
+		<div class="main"> 
+			<div class="user_box">
+				<div class="user_info">
+					<a href="javascript:void(0)" class="vip_data">
+		                <div class="head">
+		                    <img src="img/0.jpg" alt="">
+		                </div>
+		                <div class="vip_right">
+		                    <p class="user_name">
+		                    Clown <span class="open_vip">开通年卡会员</span>
+		                    </p>
+		                    <div class="tjr">
+		                        <p>推荐人:</p>
+		                        <p class="tjr_name">奥特曼</p>
+		                        <p class="tjr_xg">修改</p>
+		                    </div>
+		                    <p class="vip_number">会员号:<span>106515168</span></p>
+		                    <i class="right_icon"></i>
+		                </div>
+		            </a>
+				</div>
+				
+				<div class="tjr_xg_tc">
+					 <span class="tjr_sp1">修改推荐人</span>
+		            <br/>
+		            <label>请输入推荐人会员号</label>
+		            <br/>
+		            <input  class="txt" type="text" name="tjrName" />
+		            <br/>
+		            <p><span class="tjr_sp2">取消</span><span>确定</span></p>
+				</div>
+				
+				<div class="user_order">
+					<a class="dfk" href="javascript:void(0)">
+		                <p>0</p>待付款
+		            </a>
+		            <a class="dsh" href="javascript:void(0)">
+		                <p>0</p>待收货
+		            </a>
+		            <a class="dpj" href="javascript:void(0)">
+		                <p>0</p>待评价
+		            </a>
+		            <a class="tk" href="javascript:void(0)">
+		                <p>0</p>退款/售后
+		            </a>
+				</div>
+			</div>
+			<div class="kt_img">
+		        <img src="" alt="">
+		    </div>
+		    <div class="vip_rank">
+		    	<div class="vip_rank_title">
+		            <a class="vip_rank_title_link" href="javascript:void(0)">
+		                <div class="lf">金卡会员</div>
+		                <div class="rf">会员等级</div>
+		            </a>
+		        </div>
+		        <div class="vip_rank_content">
+		            <a class="wdfs" href="javascript:void(0)">
+		                <p>0</p> 我的粉丝
+		            </a>
+		            <a class="byzd" href="javascript:void(0)">
+		                <p>0</p>本月账单
+		            </a>
+		            <a class="jffd" href="javascript:void(0)">
+		                <p>0</p>本月积分返点
+		            </a>
+		        </div>
+		    </div>
+		    <div class="my_purse">
+		    	<div class="my_purse_title">
+		            <a class="my_purse_title_link" href="javascript:void(0)">
+		                <b></b>我的钱包
+		            </a>
+		        </div>
+		        <div class="my_purse_content">
+		            <a class="freeze" href="javascript:void(0)">
+		                <p>0</p>  提现冻结
+		            </a>
+		            <a class="balance" href="javascript:void(0)">
+		                <p>0</p>  余额
+		            </a>
+		            <a class="coupon" href="javascript:void(0)">
+		                <p>0</p> 优惠券
+		            </a>
+		        </div>
+		    </div>
+		    <ul class="item_list">
+		        <li class="item">
+		            <a class="item_order_link" href="javascript:void(0)">
+		                <div class="item_content">
+		                                                 全部订单
+		                    <span>查看</span>
+		                </div>
+		            </a>
+		        </li>
+		        <li class="item">
+		            <a class="item_er_link" href="javascript:void(0)">
+		                <div class="item_content">
+		                                                    推广二维码
+		                    <span>点击发送</span>
+		                </div>
+		            </a>
+		        </li>
+		    </ul>
+		    <footer>
+				<a href="Base.html" >首页</a>
+				<a href="Category.html">分类</a>
+				<a href="Cart.html">购物车</a>
+				<a href="Account.html" class="active">我的</a>
+			</footer>
+		</div>
+		<div class="messageDiv Max">
+			<div class="messageTitle MaxTitle">
+		        <img src="img/right.png" class="messageDivReturn  " alt=""/>
+		        <div class="MaxTitleText">个人资料</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+		    </div>
+		    <div class="basisBoxTitle">基础信息</div>
+		    <div class="basisBox">
+		    	<div class="headImg">
+		              <div class="z headImgText">头像</div>
+		              <div class="y headImgBox">
+		                  <img class="upHeadImgBtn" src="img/0.jpg" alt=""/>
+		                  <input type="file" id="upHeadImgBtn" style="display: none"/>
+		              </div>
+		        </div>
+		        
+		        <div class="name smallBox">
+		            <div class="z leftBox">昵称</div>
+		            <div class="y rightBox">
+		                <input type="text" value="梓峰" placeholder="请输入昵称"/>
+		            </div>
+		        </div>
+		        <div class="VipNum smallBox">
+		            <div class="z leftBox">会员号</div>
+		            <div class="y rightBox">
+		                 <p>110</p>
+		            </div>
+		        </div>
+		        <div class="Email smallBox">
+		            <div class="z leftBox">邮箱地址</div>
+		            <div class="y rightBox">
+		                <input type="text" value="smallclown@qq.com" placeholder="请输入邮箱地址"/>
+		            </div>
+		        </div>
+		        <div class="gender smallBox">
+		            <div class="z leftBox">性别</div>
+		            <div class="y rightBox">
+		                <input type="text" value="男" placeholder="请输入性别"/>
+		            </div>
+		        </div>
+		        <div class="day smallBox">
+		        	<div class="z leftBox">生日</div>
+		        	<div class="y rightBox">
+		        		<select id="idYear" name="idYear" data=""></select>年
+		                <select id="idMonth" name="idMonth" data="12"></select>月
+		                <select id="idDay" name="idDay" data="1"></select>日
+		        	</div>
+		        </div>
+		        <div class="site mydizhiBox">
+		        	<div class="leftBox mydizhi">我的地址</div>
+		            <div class="rightBox">
+		                <span>Clown</span><span>1096582325</span><br>
+		                <span>湖北省</span><span>十堰市</span><span>茅箭区</span>
+		                <span>汉江师范学院</span>
+		            </div>
+		        </div>
+		        <div class="bankTitle" style="height: 50px;line-height: 50px;font-size: 1rem;">银行信息</div>
+		        <div class="bank">
+		        	<div class="site smallBox">
+		        		<div class="z leftBox">收款银行</div>
+		        		<div class="y rightBox">
+		        			<select name="" id="" class="bankSelect">
+		                        <option value="请选择">请选择</option>
+		                        <option value="中国银行">中国银行</option>
+		                        <option value="农业银行">农业银行</option>
+		                        <option value="交通银行">交通银行</option>
+		                        <option value="招商银行">招商银行</option>
+		                        <option value="建设银行">建设银行</option>
+		                        <option value="工商银行">工商银行</option>
+		                    </select>
+		        		</div>
+		        	</div>
+		        	
+		        	<div class="site smallBox">
+		                <div class="z leftBox">所属省份</div>
+		                <div class="y rightBox">
+		                    <select id="loc_province2" value="0"></select>
+		                </div>
+		            </div>
+		            <div class="site smallBox">
+		                <div class="z leftBox">所属市</div>
+		                <div class="y rightBox">
+		                    <select id="loc_city2" value="0"></select>
+		                </div>
+		            </div>
+		            <div class="site smallBox">
+		                <div class="z leftBox">所属支行</div>
+		                <div class="y rightBox"><input type="text" placeholder="请输入支行名称"/></div>
+		            </div>
+		            <div class="site smallBox">
+		                <div class="z leftBox">开户行</div>
+		                <div class="y rightBox"><input type="text" placeholder="请输入开户行"/></div>
+		            </div>
+		            <div class="site smallBox">
+		                <div class="z leftBox">银行账号</div>
+		                <div class="y rightBox"><input type="text" placeholder="请输入银行账号"/></div>
+		            </div>
+		            <div class="blank_15"></div>
+		            <input type="button" class="saveBtn" value="保存"/>
+		            <div class="blank_15"></div>
+		        </div>
+		    </div>
+		</div>
+		
+		<div class="dfkBox Max">
+			<div class="orderTitle MaxTitle">
+				<img src="img/right.png" class="orderReturn Return" />
+				<div class="MaxTitleText">待付款</div>
+                <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+			</div>
+		</div>
+		
+		<div class="dshBox Max">
+			<div class="onTheRoadTitle MaxTitle">
+				<img src="img/right.png" class="onTheRoadReturn Return" alt=""/>
+		        <div class="MaxTitleText">待收货订单</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+			</div>
+		</div>
+		<div class="dpjBox Max">
+		    <div class="shareTitle MaxTitle">
+		        <img src="img/right.png" class="shareReturn Return" alt=""/>
+		        <div class="MaxTitleText">待评价</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+		    </div>
+		</div>
+		<div class="tkBox Max">
+		    <div class="afterSaleTitle MaxTitle">
+		        <img src="img/right.png" class="afterSaleReturn Return" alt=""/>
+		        <div class="MaxTitleText">退款/售后</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+		    </div>
+		</div>
+		<div class="lvBox Max">
+			<div class="lvTitle MaxTitle">
+		        <img src="img/right.png" class="lvReturn Return" alt=""/>
+		        <div class="MaxTitleText">等级</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+		    </div>
+		    <div class="abstractTitle">
+		    	<div>团队</div>
+		        <div>普通会员</div>
+		        <div>金卡会员</div>
+		        <div>VIP会员</div>
+		    </div>
+		    <div class="lvUl">
+		        <div>第一层</div>
+		        <div>1</div>
+		        <div>2</div>
+		        <div>3</div>
+		    </div>
+		    <div class="lvUl">
+		        <div>第二层</div>
+		        <div>4</div>
+		        <div>5</div>
+		        <div>6</div>
+		    </div>
+		    <div class="lvUl">
+		        <div>第三层</div>
+		        <div>7</div>
+		        <div>8</div>
+		        <div>9</div>
+		    </div>
+		    <div class="lvUl">
+		        <div>第四层</div>
+		        <div>0</div>
+		        <div>0</div>
+		        <div>0</div>
+		    </div>
+		    <div class="lvUl">
+		        <div>合计</div>
+		        <div>88</div>
+		        <div>99</div>
+		        <div>77</div>
+		    </div>
+		</div>
+		<div class="fansBox Max">
+			<div class="fansTitle MaxTitle">
+				 <img src="img/right.png" class="fansReturn Return" alt=""/>
+		        <div class="MaxTitleText">粉丝</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+			</div>
+			<div class="fansSelect">
+				<div class="yesSee fansClick">已关注</div>
+		        <div class="noSee">未关注</div>
+		        <div class="hotFan">Top20</div>
+		        <ul class="fansUl1">
+		            <li>已经关注</li>
+		            <li>已经关注</li>
+		            <li>已经关注</li>
+		            <li>已经关注</li>
+		        </ul>
+		         <ul class="fansUl2">
+		            <li>未关注</li>
+		            <li>未关注</li>
+		            <li>未关注</li>
+		            <li>未关注</li>
+		        </ul>
+		        <ul class="fansUl3">
+		            <li>Top</li>
+		            <li>Top</li>
+		            <li>Top</li>
+		            <li>Top</li>
+		        </ul>
+			</div>
+		</div>
+		
+		<div class="billBox Max">
+			<div class="billTitle MaxTitle">
+				 <img src="img/right.png" class="billReturn Return" alt=""/>
+		        <div class="MaxTitleText">账单</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+			</div>
+		</div>
+		
+		<div class="rebatesBox Max">
+			<div class="rebatesTitle MaxTitle">
+				<img src="img/right.png" class="billReturn Return" alt=""/>
+		        <div class="MaxTitleText">返点</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+			</div>
+		</div>
+		
+		<div class="myMoneyBox Max">
+			<div class="myMoneyTitle MaxTitle">
+				<img src="img/right.png" class="myMoneyReturn Return" alt=""/>
+		        <div class="MaxTitleText">钱包</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+			</div>
+			<div class="moneyTop">
+		        <p>我的余额</p>
+		        <p>$暂无收益</p>
+		    </div>
+		    <div class="moneyContent">
+		    	<div class="dongjie">
+		    		<p>提现冻结</p>
+		    		<p class="moneyNum">9.00</p>
+		    	</div>
+		    	<div class="leiji">
+		             <p>累计提现</p>
+		            <p class="moneyNum">8.00</p>
+		        </div>
+		    </div>
+		    <div class="moneyBtn">申请提现</div>
+		</div>
+		
+		<div class="changeMerchants">
+			<div class="changeContent">
+				<p>修改推荐人</p>
+				<p>请输入推荐人会员号！</p>
+				<input class="changeText" type="text"/>
+	            <div class="z quxiao">取消</div>
+	            <div class="z queding">确定</div>
+			</div>
+		</div>
+		
+		<div class="couponsBox Max">
+			<div class="couponsTitle MaxTitle">
+				<img src="img/right.png" class="couponsReturn Return" alt=""/>
+		        <div class="MaxTitleText">优惠卷</div>
+		        <img src="img/i-category-active.png" class="MaxMenu" alt=""/>
+			</div>
+			<div class="couponsContent">
+				<div class="z couponsMoney">
+					<div class="z couponsMoneyLeft"></div>
+					￥<span>5</span>
+					<div class="z couponsMoneyRight"></div>
+				</div>
+				<div class="z couponsMoneyText">
+	               <p>首次关注优惠券，满50元减5元</p>
+	               <p>使用期限：2016-05-03至2016-06-02</p>
+	               <p>单笔满50元可用（不包含邮费）</p>
+	           </div>
+			</div>
+		</div>
+		
+		
+	</body>
+	
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>	
+	<script src="js/Birthday.js"  ></script>
+	<script src="js/Scrool.js"  ></script>
+	<script src="js/Address.js"  ></script>
+	<script src="js/Location.js"  ></script>
+	<script src="js/Account.js"  ></script>
+	
+	<script type="text/javascript">
+			 $(function(){
+		        showLocation2();
+		    }) 
+		</script>
+	
+</html>
