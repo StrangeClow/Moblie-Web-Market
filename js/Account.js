@@ -1,4 +1,4 @@
-/*biubiubiu*/
+/*开始编写coding*/
 window.onload = function () {
 	var myDate = new Date();
 	$("#dateSelelctor").DateSelector({
