@@ -1,4 +1,4 @@
-
+/**swiper插件*/
 
 $(function() {
 	var swiper = new Swiper('.swiper-container-1', {
